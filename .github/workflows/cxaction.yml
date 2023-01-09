@@ -17,5 +17,5 @@ jobs:
           project_name: AP Github Action
           cx_tenant: dp_wp_account
           base_uri: https://eu.ast.checkmarx.net
-          cx_client_id: ${{ secrets.oauthclient }}
-          cx_client_secret: ${{ secrets.oauthsecret }}
+          cx_client_id: ${{ secrets.apiclient }}
+          cx_client_secret: ${{ secrets.apisecret }}
