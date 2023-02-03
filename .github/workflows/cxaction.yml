@@ -1,12 +1,13 @@
 name: Checkmarx One Scan
 on:
-  # push:
-  #  branches:
-  #    - main
-  #    - master
-  #    - dev
-  schedule:
-    - cron: "*/5 * * * *"
+  push:
+    branches:
+      - main
+      - master
+      - dev
+  #schedule:
+  #  - cron: "*/5 * * * *"
+    
 jobs:
   build:
     runs-on: ubuntu-latest
