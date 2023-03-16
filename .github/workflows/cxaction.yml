@@ -20,7 +20,7 @@ jobs:
           project_name: AP Github Action
           cx_tenant: dp_wp_account
           base_uri: https://eu.ast.checkmarx.net
-          cx_client_id: ${{ secrets.oauthclient }}
-          cx_client_secret: ${{ secrets.oauthsecret }}
-          #additional_params: --apikey ${{ secrets.apisecret }}
-          additional_params: --sast-incremental --sast-preset-name "Checkmarx Default" --scan-types sast --filter status=NEW --filter state='TO_VERIFY;CONFIRMED;URGENT'
+          #cx_client_id: ${{ secrets.oauthclient }}
+          #cx_client_secret: ${{ secrets.oauthsecret }}
+          additional_params: --apikey ${{ secrets.apisecret }}
+          #additional_params: --sast-incremental --sast-preset-name "Checkmarx Default" --scan-types sast --filter status=NEW --filter state='TO_VERIFY;CONFIRMED;URGENT'
