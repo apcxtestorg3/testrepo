@@ -22,5 +22,5 @@ jobs:
           base_uri: https://eu.ast.checkmarx.net
           #cx_client_id: ${{ secrets.oauthclient }}
           #cx_client_secret: ${{ secrets.oauthsecret }}
-          additional_params: --apikey ${{ secrets.apisecret }}
+          additional_params: --apikey ${{ secrets.apisecret2 }}
           #additional_params: --sast-incremental --sast-preset-name "Checkmarx Default" --scan-types sast --filter status=NEW --filter state='TO_VERIFY;CONFIRMED;URGENT'
